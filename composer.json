@@ -1,17 +1,14 @@
 {
-    "name": "sebastian/money",
-    "description": "Value Object that represents a monetary value (using a currency's smallest unit)",
-    "keywords": ["money"],
-    "homepage": "http://www.github.com/sebastianbergmann/money",
-    "license": "BSD-3-Clause",
+    "name": "vghad/money",
+    
     "authors": [
         {
-            "name": "Sebastian Bergmann",
-            "email": "sebastian@phpunit.de"
+            "name": "Vikas Ghadage",
+            "email": "vikas.ghadage@everseen.com"
         }
     ],
     "require": {
-        "php": "^5.4|^7.0",
+        "php": ">=5.4",
         "ext-intl": "*"
     },
     "autoload": {
@@ -19,10 +16,5 @@
             "src/"
         ]
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.6.x-dev"
-        }
-    }
 }
 
